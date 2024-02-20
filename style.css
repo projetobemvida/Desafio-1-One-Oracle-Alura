@@ -1,0 +1,290 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    
+}
+
+body{
+    box-sizing: border-box;
+    width: 1440px;
+    height: 1024px;
+    font-family:   'Inter', sans-serif;
+    background-color: #F3F5FC;
+}
+.apresentacao{
+    display:flex;
+    
+
+}
+.logo{
+    position: absolute;
+    left: 40px;
+    top:40px;
+}
+#input::placeholder{
+    font-family: 'Inter', sans-serif ;
+    font-size: 32px;
+    color: #0A3871;
+    outline: 0;
+    border:none;
+    text-transform:none;
+
+}
+
+.input{
+    position:absolute;
+    text-transform: lowercase;
+    left:240px;
+    top:168px;
+    width: 680px;
+    height: 48px;
+    border: none;
+    resize: none;
+    background-color: #F3F5FC;
+    outline: 0;
+    font-size: 32px;
+    color: #0A3871;
+
+     
+
+}
+.aviso{
+    position:absolute;
+    left: 240px;
+    top:851px;
+    display:flex;
+    gap:8px;
+   
+}
+.botoes{
+    display:flex;
+    position: absolute;
+    left: 240px;
+    top:855px;
+    margin-top: 16px;
+    padding-top: 24px;
+    width: 680px;
+    gap:24px;
+    
+
+
+}
+.btncripto{
+    width:380px;
+    height: 67px;
+    border: none;
+    outline:0;
+    border-radius: 32px;
+    background-color: #0A3871;
+    color:#fff;  
+}
+
+.btndescripto{
+    width:380px;
+    height: 67px;
+    border: 1px solid #0A3871;
+    outline:0;
+    border-radius: 32px;
+    background-color: #D8DFE8;
+    color:#0A3871;
+
+}
+.copiar{
+    position:absolute;
+    left: 10px;
+    top:845px;
+    width:380px;
+    height: 67px;
+    border: 1px solid #0A3871;
+    outline:0;
+    border-radius: 32px;
+    background-color: #fff;
+    color:#0A3871;
+    display:none;
+    
+
+}
+
+.retorno{
+    position: absolute;
+    left: 1000px;
+    top:40px;
+    width:400px;
+    height: 944px;
+    background-color: #fff;
+    border-radius: 32px;
+}
+
+.imagem{
+    position:absolute;
+    left: 32px;
+    top: 283px;
+
+}
+
+.titulo{
+    position: absolute;
+    left: 32px;
+    top:579px;
+    font-size: 24px;
+    font-style: bold;
+    color:#343A40;
+    text-align: center;
+    margin-top: 32px;
+
+}
+.texto{
+    position:absolute;
+    left: 32px;
+    top:624px;
+    text-align: center;
+    font-size: 16px;
+    color:#495057;
+    margin-top: 77px;
+    margin-right: 32px;
+}
+.rodape{
+    justify-content: flex-end;
+}
+
+@media (max-width: 850px)
+
+{
+    .logo{
+        left: 40px;
+        top:73.42px;
+    }
+    .input{
+        left: 40px;
+        top:240px;
+        width: 688px;
+        height: 48px;
+    }
+    .aviso{
+        left:40px;
+
+    }
+    .botoes{
+        left: 40px;
+        top: 870px;
+    }
+
+    .retorno{
+        position:absolute;
+        width: 688px;
+        height: 133px;        
+        left:40px;
+        top:1001px;
+        
+    }
+    
+    .titulo{
+        width:624px;
+        
+        justify-content: center;
+        
+        
+        top:0;
+    }
+    .texto{
+        width:624px;
+        justify-content: center;
+        top:0;
+       
+    }
+
+    .retorno__caixas{
+       
+       justify-content: center;
+       left:40px;
+       top:0;
+    }
+    .imagem{
+        display:none;
+    }
+    .copiar{
+        position:absolute;
+        left: 168px;
+        top:244px;
+        width:380px;
+        height: 67px;
+        border: 1px solid #0A3871;
+        outline:0;
+        border-radius: 32px;
+        background-color: #fff;
+        color:#0A3871;
+        display:none;
+        
+    
+    
+}
+
+@media (max-width:400px){
+    .logo{
+        left: 16px;
+        top:24px
+    }
+    .input{
+        left: 16px;
+        top: 152px;
+    }
+    .aviso{
+        left: 16px;
+        top:451px;
+        font-size: 14px;
+    }
+    .botoes{
+        flex-direction: column;
+        left: 16px;
+        top:485px;
+    }
+    .btncripto{
+        width:343px;
+        height: 67px;
+    }
+    .btndescripto{
+        width:343px;
+        height: 67px;
+    }
+    .retorno{
+        left: 24px;
+        top: 707px;
+        width: 327px;
+        height: 186px;
+    }
+    .titulo{
+        width: 263px;
+        justify-content: center;
+        font-size: 24px;
+    }
+    .texto{
+        width: 263px;
+        justify-content: center;
+        margin-top: 106px;
+        font-size: 16px;
+    }
+    .copiar{
+        position:absolute;
+        justify-content: center;
+        left:0;
+        top:244px;
+        width:343px;
+        height: 67px;
+        border: 1px solid #0A3871;
+        outline:0;
+        border-radius: 32px;
+        background-color: #fff;
+        color:#0A3871;
+        display:none;
+    }
+    
+
+
+    
+}
+
+}
+

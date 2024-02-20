@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="Pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Passando a limpo</title>
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <main>
+    <section class="apresentacao">
+        <img class="logo" src="assets/Logo.svg" alt="logo alura">
+        <textarea class="input" name="input" id="input" cols="1" rows="10" placeholder="Digite o texto"></textarea>
+        <div class="aviso">
+        <img src="assets/bi_exclamation-circle-fill.svg" alt="alerta"> 
+        
+        <p>Apenas letras minúsculas e sem acento.</p>
+    </div>
+    <div class="botoes">
+        <button type="button" onclick= criptografarTexto() id="criptografar" class="btncripto" >Criptografar</button>
+        <button type="button" onclick=descriptografarTexto() id="descriptografar" class="btndescripto" >Descriptografar</button>
+    </div>
+    </section>
+    <section class="retorno">
+        <img id="imagem" class="imagem" src="assets/High quality products 1 1.png" alt="boneca">
+        <div class="retorno__caixas">
+        <h1 class="titulo" id="titulo">Nenhuma mensagem encontrada</h1>
+        <h2 id="texto" class="texto">Digite um texto que você deseja criptografar ou descriptografar.</h2>
+        <button type="button" onclick = copiar() id="copiar" class="copiar">Copiar</button>
+        </div>    
+    </section>    
+    </main>
+
+</body>
+<footer class="rodape"></footer>
+<script src="app.js" defer></script>
+
+</html>
